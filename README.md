@@ -8,7 +8,15 @@ This plugin is a backport of the [tail command](https://github.com/aws/aws-cli/p
 
 ## Installation
 
-To install the log tail plugin:
+To install the latest release of the logs tail plugin:
+
+
+```
+$ pip install awscli-plugin-logs-tail
+
+```
+
+To install the plugin from source:
 
 ```
 $ pip install git+https://github.com/corymbia/logs-tail-awscli-plugin.git
@@ -36,4 +44,8 @@ $ aws logs tail LOG_GROUP_NAME
 ...
 ```
 
-See command help for details.
+See command help for details:
+
+```
+$ aws logs tail help
+```
