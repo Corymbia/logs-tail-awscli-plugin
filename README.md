@@ -13,7 +13,6 @@ To install the latest release of the logs tail plugin:
 
 ```
 $ pip install awscli-plugin-logs-tail
-
 ```
 
 To install the plugin from source:
